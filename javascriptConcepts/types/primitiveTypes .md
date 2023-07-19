@@ -18,7 +18,7 @@
 ### Now the main thing, out of all these listed above, not all are objects , 
 #### The objects are object,array and functions and rest all are NOT objects.
 
-#### In js, it is not the values that have type, it is the values that have a type.
+#### In js, it is not the variables that have type, it is the values that have a type.
 
 # #2 typeof
 ### It tells us what is the type of value that is currently in a particular variable v.Determining something about its identity
