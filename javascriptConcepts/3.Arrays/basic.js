@@ -64,3 +64,14 @@ const channels = [
         subscribers: 30000
     }
 ]
+
+//concat method : joins two or more arrays without modifying the existing arrays
+let name1 = ['Yash','Payal','Shruti','Mansi'] 
+// console.log(name1.concat('Manisha','Manish')) //O/P: ['Yash', 'Payal', 'Shruti', 'Mansi', 'Manisha', 'Manish']
+
+let name2 = ['Mehak','Kshitij','Vansh']
+// console.log(name1.concat(name2)); //O/P: ['Yash', 'Payal', 'Shruti', 'Mansi', 'Mehak', 'Kshitij', 'Vansh']
+
+let name3 = name1.concat(name2)
+console.log(name3.slice(2)) //will print elements from the index 2 till the last index of the array
+console.log(name3.slice(2,4)) // will print elements starting from index 2 till the element before index 4
