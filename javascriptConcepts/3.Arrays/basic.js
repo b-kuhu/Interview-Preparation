@@ -1,4 +1,4 @@
-const array = [1,2,3,4,5,6,7,8,9]
+/* const array = [1,2,3,4,5,6,7,8,9]
 console.log(array)
 
 //Another way to declare an array
@@ -64,7 +64,6 @@ const channels = [
         subscribers: 30000
     }
 ]
-
 //concat method : joins two or more arrays without modifying the existing arrays
 let name1 = ['Yash','Payal','Shruti','Mansi'] 
 // console.log(name1.concat('Manisha','Manish')) //O/P: ['Yash', 'Payal', 'Shruti', 'Mansi', 'Manisha', 'Manish']
@@ -75,3 +74,27 @@ let name2 = ['Mehak','Kshitij','Vansh']
 let name3 = name1.concat(name2)
 console.log(name3.slice(2)) //will print elements from the index 2 till the last index of the array
 console.log(name3.slice(2,4)) // will print elements starting from index 2 till the element before index 4
+
+//for loop
+for(let i=0;i<name3.length;i++)
+console.log(name3[i])
+
+//for of 
+for(let name of name3)
+console.log(name)  
+
+// for each
+name3.forEach(function(name,index){
+    console.log(name,index)
+})  
+*/
+
+//join : Adds all the elements of an array into a string, separated by the specified separator string. 
+//Seperators can be empty string,underscore,'-' etc 
+let student = ['s','h','i','v','a']
+console.log(student.join('_'))
+
+student = student.join('_')
+
+//split: Split a string into substrings using the specified separator and return them as an array.
+console.log(student.split('_'))
