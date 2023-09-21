@@ -1,4 +1,4 @@
-/* const array = [1,2,3,4,5,6,7,8,9]
+const array = [1,2,3,4,5,6,7,8,9]
 console.log(array)
 
 //Another way to declare an array
@@ -87,7 +87,6 @@ console.log(name)
 name3.forEach(function(name,index){
     console.log(name,index)
 })  
-*/
 
 //join : Adds all the elements of an array into a string, separated by the specified separator string. 
 //Seperators can be empty string,underscore,'-' etc 
